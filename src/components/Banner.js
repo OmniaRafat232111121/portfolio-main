@@ -8,7 +8,7 @@ const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "front-end Developer", "Back-end Developer", "UI/UX Designer" ];
+    const toRotate = [ "front-end Developer" ];
     const period = 2000;
   
     useEffect(() => {
@@ -51,12 +51,19 @@ const Banner = () => {
         <Row className="align-items-center">
         <Col  xs={12} md={6} xl={7} >
         <span className="tagline"> Welcome to my Portfolio</span>
-       <h1>{`Hi! I'm Omnia`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "frot-end Developer", "Back-end Developerr" ]'><span className="wrap">{text}</span></span></h1>
-
-       <p>I'm a front-end web developer with 2 years of experience designing and building responsive web apps.
-       Good at CSS, JavaScript 🟡, React, as well as good knowledge in Backend with Laravel</p>
-       <button onClick={()=>console.log('connect')}>Lets Connect  <ArrowRightCircle  size={23}/></button>
+       <h1>{`Hi! I'm Omnia`} 
+       <span 
+       className="txt-rotate" 
+       dataPeriod="1000" 
+       data-rotate='[ "frot-end Developer" ]'>
+        <span className="wrap">{text}</span></span></h1>
+      <p>
+      I'm a frontend developer with expertise in React.js and its ecosystem. I specialize in creating beautiful and intuitive user interfaces that deliver exceptional user experiences.
+      </p>
+       <button onClick={()=>console.log('connect')}>Lets Connect 
+        <ArrowRightCircle  size={23}/></button>
        </Col>
+    
        <Col xs={12} md={6} xl={5}>
          <img src={bab} alt="Header Img" />
        </Col>

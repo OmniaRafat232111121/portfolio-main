@@ -1,9 +1,15 @@
 .about{
     background: #121212;
+
   }
 img.about__img{
     border-radius: 10px;
+    margin-bottom: 100px;
    
+  }
+  .p__color{
+    width:700px;
+    max-width: 100%;
   }
   h1.about__heading{
     margin-bottom: 10px;
@@ -70,6 +76,7 @@ img.about__img{
   @media only screen and (max-width: 1024px){
     .p__color{
         font-size: 15px!important;
+        width:350px;
     }
   }
   @media only screen and (max-width: 425px){

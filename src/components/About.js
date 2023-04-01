@@ -21,14 +21,13 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-              I'm a Front-end web developer with 2+ years of experience in designing and building responsive web apps. 
+              I'm a frontend developer with a strong focus on React.js and its ecosystem. My expertise includes working with Redux, Redux Toolkit, and React with TypeScript. I'm also proficient in various styling libraries like Bootstrap, TailwindCSS, MaterialUI, AntDesign, CSS, and Sass.
               </p>
               <p className="about__text p__color">
-              Proficient styling: CSS,Bootstrap,Material UI ,Tailwind CSS,Recat-BootStrap-React Js as well as a good knowledge in Backend with Laravel.
+              I have experience in implementing user authentication using Firebase, which helps me build secure and reliable applications. In my current role at startup, I have worked on a variety of projects, including several landing pages for electrical and water companies, as well as dashboards.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
+              I have a passion for crafting beautiful and intuitive user interfaces, and I'm committed to writing clean and maintainable code. I'm always eager to learn new technologies and collaborate with others to create exceptional web experiences.
               </p>
               <Row>
               <Col className="about__button d__flex align-items-center justify-content-center">
