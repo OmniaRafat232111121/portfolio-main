@@ -258,7 +258,7 @@ const projects = [
        <h2>Projects</h2>
        <p>I enjoy every step of the developement process, from discussion and collaboration to concept and execution</p>
        <Tab.Container id="projects-tabs" defaultActiveKey="first">
-         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+         {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
            <Nav.Item>
              <Nav.Link eventKey="first">WebSItes</Nav.Link>
            </Nav.Item>
@@ -269,7 +269,7 @@ const projects = [
              <Nav.Link eventKey="second">Games JS</Nav.Link>
            </Nav.Item>
            
-         </Nav>
+         </Nav> */}
          <Tab.Content id="slideInUp" >
            <Tab.Pane eventKey="first">
              <Row>
