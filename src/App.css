@@ -194,10 +194,7 @@ nav.navbar .navbar-toggler-icon:before {
 	content: '';
 	z-index: 2;
 	transition: all 300ms linear;
-	-webkit-transition:;
-	-moz-transition:;
-	-ms-transition:;
-	-o-transition:;
+
 }
 nav.navbar .navbar-toggler-icon:after {
 	top: 8px;
@@ -224,11 +221,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner{
   margin-top:0;
   padding:260px 0 100px 0;
-  
-  /* background-image: url('./assets/img/banner-bg.png');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat; */
 }
 
 .banner .tagline{
@@ -610,10 +602,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 0;
   display: flex;
   align-items: center;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+ 
 }
 .new-email-bx::before {
   content: "";
@@ -625,10 +614,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: -1px;
   bottom: -1px;
   right: -1px;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+ 
 }
 .new-email-bx::after {
   content: "";
@@ -640,10 +626,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   bottom: 0;
   right: 0;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+ 
 }
 .new-email-bx input {
   width: 100%;
